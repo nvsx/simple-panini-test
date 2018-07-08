@@ -1,32 +1,19 @@
 {
-  "name": "simple-panini-test",
+  "name": "nvsx-panini-001",
   "version": "1.0.0",
-  "description": "Panini example for generating static webpages",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nvsx/simple-panini-test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nvsx/simple-panini-test/issues"
-  },
-  "homepage": "https://github.com/nvsx/simple-panini-test#readme",
   "dependencies": {
     "panini": "^1.6.2"
   },
   "devDependencies": {
-    "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-sass": "^4.0.1",
-    "gulp-typescript": "^5.0.0-alpha.3",
-    "gulp-uglify": "^3.0.0"
+    "http-server": "^0.11.1"
   }
 }
