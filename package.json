@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "panini": "^1.6.2"
+    "panini": "^1.6.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
