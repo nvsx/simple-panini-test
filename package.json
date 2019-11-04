@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "panini": "^1.6.3"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "panini": "^1.6.3"
   }
 }

@@ -1,7 +1,9 @@
 var gulp = require('gulp');
 var panini = require('panini');
 
-gulp.task('default', function() {
+gulp.task('default', ['build_htdocs']);
+
+gulp.task('build_htdocs', function() {
   gulp.src('pages/**/*.html')
     .pipe(panini({
       root: 'pages/',
@@ -12,4 +14,3 @@ gulp.task('default', function() {
     }))
     .pipe(gulp.dest('htdocs'));
 });
-
